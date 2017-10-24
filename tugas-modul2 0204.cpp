@@ -11,5 +11,8 @@ double Jml_box_parket, Biaya_parket, Biaya_pasang, Totalbyr;
 cout <<" Luas Rumah : "<<Luas_rumah<<" m2"<<endl;
 cout <<" Luas 1 Box Parket 	: "<<Luas_1box<<"m2"<<endl;
 
+Jml_box_parket = Luas_rumah/Luas_1box;
+cout <<" Jumlah Box Parket	:"<<Jml_box_parket<<endl;
+
 	
 }
